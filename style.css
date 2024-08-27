@@ -99,5 +99,115 @@ select {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
+body {
+  text-align: center;
+}
 
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  transform: scale(50%);
+}
+
+.top-pic {
+  transform: scale(90%);
+  margin: 2rem auto;
+}
+
+.all {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.fylo {
+  font-size: .9rem;
+  line-height: 1.2rem;
+  padding: 1rem 3rem;
+
+}
+
+.form {
+  display: grid;
+  gap: 1rem;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.top-input {
+  padding: .5rem;
+  font-size: .8rem;
+}
+
+button {
+  color: white;
+  padding: .5rem;
+  font-weight: 600;
+  border-radius: .4rem;
+}
+
+.get-started-top {
+  background-color: blue;
+}
+.get-started-for-free {
+  background-color: blue;
+}
+
+.mid-pic {
+  margin: 7rem auto;
+}
+
+.stay {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.never {
+  text-align: left;
+  font-size: .9rem;
+  padding: .5rem;
+}
+
+.securely {
+  text-align: left;
+  font-size: 1rem;
+  padding: .5rem;
+}
+
+.see-1 {
+  display: inline;
+}
+
+.fylo-box {
+  padding: 1rem;
+  background-color: red;
+  font-size: .7rem;
+  text-align: left;
+  margin: 3rem;
+}
+
+.kyle-img {
+  border-radius: 50%;
+  transform: scale(25%);
+}
+
+.gray-section {
+  background-color: lightblue;
+  padding: 1rem;
+  color: white;
+  font-size: .9rem;
+}
+
+.early {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.bottom-section {
+  background-color: navy;
+  padding: 2rem;
+}
