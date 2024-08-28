@@ -6,22 +6,24 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
 
 </head>
 <body>
-<header class=>
-  
-  
-  <section class="header">
+<div class="header">
+  <div class="top-logo">
     <img src="/images/logo.svg" alt="" class="logo">
-    <p class="featured">Features</p>
-    <p class="team">Team</p>
-    <p class="sign-in">Sign In</p>
-  </section>
-</header>
+  </div>  
+    <div class="top-links">
+      <p class="featured">Features</p>
+      <p class="team">Team</p>
+      <p class="sign-in">Sign In</p>
+    </div>
+</div>
 
 <img src="/images/illustration-1.svg" alt="" class="top-pic">
 
@@ -69,7 +71,7 @@
   <p class="it-only">  It only takes a minute to sign up and our free starter tier is extremely generous. 
     If you have any questions, our support team would be happy to help you.</p>
 
-<section class="form">
+<section class="form-bottom">
   <input class="bottom-input" type="" name="name" id="name" required />
   <button class="get-started-for-free">Get Started For Free</button>
 </section>
@@ -85,7 +87,7 @@
     <p class="phone"> Phone: +1-543-123-4567</p>
   </section>
   <section class="email-section">
-    <img src="/images/icon-email.svg" alt="" class="email">
+    <img src="/images/icon-email.svg" alt="" class="email-img">
     <p class="email">example@fylo.com</p>
   </section>
 
@@ -93,25 +95,28 @@
   
 </section>
 
- <ul class="four">
-  <li>About Us</li>
-  <li>Jobs</li>
-  <li>Press</li>
-  <li>Blog</li>
- </ul>
-
-<ul class="three">
-  <li>Contact Us</li>
-  <li>Terms</li>
-  <li>Privacy</li>
-</ul>
+<div class="end-section">
+  <ul class="four">
+    <li>About Us</li>
+    <li>Jobs</li>
+    <li>Press</li>
+    <li>Blog</li>
+   </ul>
+  
+  <ul class="three">
+    <li>Contact Us</li>
+    <li>Terms</li>
+    <li>Privacy</li>
+  </ul>
 </div>
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+<div class="icons">
+  <i class="fab fa-facebook-f"></i>
+   <i class="fab fa-twitter"></i>
+   <i class="fab fa-instagram"></i>
+   </div>
+
+
+</div>
 </body>
 </html>

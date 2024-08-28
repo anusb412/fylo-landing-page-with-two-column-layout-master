@@ -114,6 +114,11 @@ body {
   transform: scale(50%);
 }
 
+.top-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .top-pic {
   transform: scale(90%);
   margin: 2rem auto;
@@ -126,7 +131,8 @@ body {
 
 .fylo {
   font-size: .9rem;
-  line-height: 1.2rem;
+  font-weight: 500;
+  line-height: 1.4rem;
   padding: 1rem 3rem;
 
 }
@@ -155,27 +161,32 @@ button {
 }
 .get-started-for-free {
   background-color: blue;
+  border: 1px solid blue;
 }
 
 .mid-pic {
   margin: 7rem auto;
+  background-image: url(/images/bg-curve-mobile.svg); 
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: stretch;
 }
 
 .stay {
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .never {
   text-align: left;
   font-size: .9rem;
-  padding: .5rem;
+  padding: 0 2rem;
 }
 
 .securely {
   text-align: left;
   font-size: 1rem;
-  padding: .5rem;
+  padding: 0 2rem;
 }
 
 .see-1 {
@@ -188,26 +199,101 @@ button {
   font-size: .7rem;
   text-align: left;
   margin: 3rem;
+
 }
 
 .kyle-img {
   border-radius: 50%;
   transform: scale(25%);
+  
 }
 
 .gray-section {
-  background-color: lightblue;
-  padding: 1rem;
+  background-color: blueviolet;
+  padding: 3.4rem;
+  line-height: 1.3rem;
   color: white;
   font-size: .9rem;
 }
 
 .early {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
+}
+
+.it-only {
+  margin-bottom: 1.5rem;
+}
+
+.form-bottom {
+  display: grid;
+  gap: .5rem;
+  max-width: 85%;
+  margin: 0 auto;
 }
 
 .bottom-section {
   background-color: navy;
-  padding: 2rem;
+  padding: 4rem 3rem;
+  color: white;
+  text-align: left;
 }
+
+.bottom-logo {
+  transform: scale(110%);
+  color: white;
+}
+
+.info-section {
+  padding: 2rem 0;
+}
+
+.phone-section {
+  display: flex;
+  align-items: center;
+}
+
+.phone {
+  padding-left:2rem;
+}
+
+.email-section {
+  display: flex;
+  align-items: center;
+}
+
+.email {
+  padding-left: 2rem;
+}
+
+.end-section {
+  display: grid;
+  gap: 1rem;
+}
+
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: grid;
+  gap: .5rem;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(75%);
+}
+
+.fab {
+padding: .5rem;
+border: 2px solid white;
+border-radius: 50%;
+margin: .5rem;
+}
+
+
+
+
+
