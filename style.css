@@ -101,6 +101,7 @@ select {
 
 body {
   text-align: center;
+  background-color: whitesmoke;
 }
 
 
@@ -117,6 +118,7 @@ body {
 .top-links {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  padding: .5rem;
 }
 
 .top-pic {
@@ -125,23 +127,25 @@ body {
 }
 
 .all {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: 700;
+  padding: .5rem;
 }
 
 .fylo {
-  font-size: .9rem;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 1.4rem;
-  padding: 1rem 3rem;
+  padding: 1rem 1rem;
 
 }
 
 .form {
   display: grid;
-  gap: 1rem;
-  max-width: 80%;
+  gap: .5rem;
+  max-width: 90%;
   margin: 0 auto;
+  padding: 1rem;
 }
 
 .top-input {
@@ -151,18 +155,15 @@ body {
 
 button {
   color: white;
-  padding: .5rem;
   font-weight: 600;
   border-radius: .4rem;
 }
 
 .get-started-top {
   background-color: blue;
+  padding: .5rem;
 }
-.get-started-for-free {
-  background-color: blue;
-  border: 1px solid blue;
-}
+
 
 .mid-pic {
   margin: 7rem auto;
@@ -174,18 +175,18 @@ button {
 
 .stay {
   font-size: 1rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .never {
   text-align: left;
-  font-size: .9rem;
+  font-size: .80rem;
   padding: 0 2rem;
 }
 
 .securely {
   text-align: left;
-  font-size: 1rem;
+  font-size: .85rem;
   padding: 0 2rem;
 }
 
@@ -194,23 +195,38 @@ button {
 }
 
 .fylo-box {
-  padding: 1rem;
-  background-color: red;
-  font-size: .7rem;
+  padding: .5rem;
+  background-color: white;
   text-align: left;
-  margin: 3rem;
+  margin: 2rem;
+  border-radius: .25rem;
+}
 
+.improved {
+  font-size: .77rem;
+  line-height: 1.25rem;
+  font-weight: 400;
 }
 
 .kyle-img {
   border-radius: 50%;
-  transform: scale(25%);
-  
+  width: 25px;
+  height: 25px;
+  image-orientation: 
 }
+
+.kyle {
+  display: flex;
+}
+
+.kyle-span {
+  display: flex;
+}
+
 
 .gray-section {
   background-color: blueviolet;
-  padding: 3.4rem;
+  padding: 2.5rem;
   line-height: 1.3rem;
   color: white;
   font-size: .9rem;
@@ -230,6 +246,17 @@ button {
   gap: .5rem;
   max-width: 85%;
   margin: 0 auto;
+}
+
+.bottom-input {
+  padding: .25rem;
+  font-size: .75rem;
+}
+
+.get-started-for-free {
+  background-color: blue;
+  border: 1px solid blue;
+  padding: .4rem;
 }
 
 .bottom-section {
@@ -293,7 +320,25 @@ border-radius: 50%;
 margin: .5rem;
 }
 
+@media (min-width:450px) {
 
+  body {
+    padding: 2rem;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .top-pic {
+
+    transform: scale(50%);
+  }
+
+
+}
 
 
 
