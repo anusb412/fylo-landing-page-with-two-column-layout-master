@@ -204,8 +204,13 @@ button {
 
 .improved {
   font-size: .77rem;
-  line-height: 1.25rem;
+  line-height: 1rem;
   font-weight: 400;
+}
+
+.kyle {
+  display: flex;
+  align-items: center;
 }
 
 .kyle-img {
@@ -214,12 +219,16 @@ button {
   height: 25px;
 }
 
-.kyle {
-  display: flex;
+.kyle-name {
+  font-size: .65rem;
+  font-weight: 600;
+  padding-left: .5rem;
 }
 
 .kyle-span {
   display: flex;
+  font-size: .5rem;
+  font-weight: 400;
 }
 
 
@@ -322,18 +331,15 @@ margin: .5rem;
 @media (min-width:450px) {
 
   body {
-    padding: 2rem;
+
   }
 
   main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+
   }
 
   .top-pic {
 
-    transform: scale(50%);
   }
 
 
