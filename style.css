@@ -102,6 +102,8 @@ select {
 body {
   text-align: center;
   background-color: whitesmoke;
+  width: auto;
+  height: auto;
 }
 
 
@@ -109,6 +111,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.top-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1Fr;
+
 }
 
 .logo {
@@ -162,6 +170,7 @@ button {
 .get-started-top {
   background-color: blue;
   padding: .5rem;
+  cursor: pointer;
 }
 
 
@@ -190,20 +199,28 @@ button {
   padding: 0 2rem;
 }
 
+.see-how {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
 .see-1 {
-  display: inline;
+color: hsl(170, 45%, 43%);
+cursor: pointer;
 }
 
 .fylo-box {
-  padding: .5rem;
+  padding: 1.5rem 2rem;
   background-color: white;
   text-align: left;
-  margin: 2rem;
+  margin: 2rem 2.5rem;
   border-radius: .25rem;
 }
 
 .improved {
-  font-size: .77rem;
+  font-size: 9.7px;
   line-height: 1rem;
   font-weight: 400;
 }
@@ -233,7 +250,7 @@ button {
 
 
 .gray-section {
-  background-color: blueviolet;
+  background-color: hsl(238, 22%, 44%);
   padding: 2.5rem;
   line-height: 1.3rem;
   color: white;
@@ -262,13 +279,14 @@ button {
 }
 
 .get-started-for-free {
-  background-color: blue;
-  border: 1px solid blue;
+  background-color: hsl(224, 93%, 58%);
+  border: 1px solid hsl(224, 93%, 58%);
   padding: .4rem;
+  cursor: pointer;
 }
 
 .bottom-section {
-  background-color: navy;
+  background-color: hsl(243, 87%, 12%);
   padding: 4rem 3rem;
   color: white;
   text-align: left;
@@ -276,7 +294,6 @@ button {
 
 .bottom-logo {
   transform: scale(110%);
-  color: white;
 }
 
 .info-section {
@@ -299,6 +316,10 @@ button {
 
 .email {
   padding-left: 2rem;
+}
+
+.email-img {
+  cursor: pointer;
 }
 
 .end-section {
@@ -326,24 +347,16 @@ padding: .5rem;
 border: 2px solid white;
 border-radius: 50%;
 margin: .5rem;
+cursor: pointer;
+}
+
+li {
+  cursor: pointer;
 }
 
 @media (min-width:450px) {
 
-  body {
 
-  }
-
-  main {
-
-  }
-
-  .top-pic {
-
-  }
-
-
-}
 
 
 
