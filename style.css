@@ -13,17 +13,8 @@
 }
 
 /* Remove default margin */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
-  margin-block-end: 0;
+* {
+  margin: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -35,6 +26,16 @@ ol[role="list"] {
 /* Set core root defaults */
 html:focus-within {
   scroll-behavior: smooth;
+}
+
+/* Set header */
+
+header {
+  height: 60px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Set core body defaults */
@@ -69,6 +70,7 @@ select {
   html:focus-within {
     scroll-behavior: auto;
   }
+
   *,
   *::before,
   *::after {
@@ -84,19 +86,25 @@ select {
 ########################### */
 
 :root {
-    --clr-orange: hsl(31, 77%, 52%);
-    --clr-dcyan: hsl(184, 100%, 22%);
-    --clr-vdcyan: hsl(179, 100%, 13%);
-    --clr-white: hsla(0, 0%, 100%, 0.75);
-    --clr-gray: hsl(0, 0%, 95%);
+  --clr-orange: hsl(31, 77%, 52%);
+  --clr-dcyan: hsl(184, 100%, 22%);
+  --clr-vdcyan: hsl(179, 100%, 13%);
+  --clr-white: hsla(0, 0%, 100%, 0.75);
+  --clr-gray: hsl(0, 0%, 95%);
 
-    font-family: "Raleway", "Open Sans";
-    --fw-400: 400;
-    --fw-700: 700;
+  font-family: "Raleway", "Open Sans";
+  --fw-400: 400;
+  --fw-700: 700;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 
 
 body {
@@ -120,7 +128,8 @@ body {
 }
 
 .logo {
-  transform: scale(50%);
+  /* transform: scale(50%); */
+  height: 30px;
 }
 
 .top-links {
@@ -176,7 +185,7 @@ button {
 
 .mid-pic {
   margin: 7rem auto;
-  background-image: url(/images/bg-curve-mobile.svg); 
+  background-image: url(/images/bg-curve-mobile.svg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: stretch;
@@ -207,8 +216,8 @@ button {
 }
 
 .see-1 {
-color: hsl(170, 45%, 43%);
-cursor: pointer;
+  color: hsl(170, 45%, 43%);
+  cursor: pointer;
 }
 
 .fylo-box {
@@ -306,7 +315,7 @@ cursor: pointer;
 }
 
 .phone {
-  padding-left:2rem;
+  padding-left: 2rem;
 }
 
 .email-section {
@@ -343,11 +352,11 @@ ul {
 }
 
 .fab {
-padding: .5rem;
-border: 2px solid white;
-border-radius: 50%;
-margin: .5rem;
-cursor: pointer;
+  padding: .5rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: .5rem;
+  cursor: pointer;
 }
 
 li {
@@ -355,8 +364,3 @@ li {
 }
 
 @media (min-width:450px) {
-
-
-
-
-
